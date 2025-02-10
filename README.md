@@ -6,7 +6,7 @@ Welcome to the React Device Catalog, a comprehensive e-commerce application desi
 
 ## Demo
 
-You can view a live demo of the application [DEMO](https://bodyarespect.github.io/react_device-catalog/).
+You can view a live demo of the application [DEMO](https://danulyk05.github.io/phones-shop/).
 
 ## Key Features
 
