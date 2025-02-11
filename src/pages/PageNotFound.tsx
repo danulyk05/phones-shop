@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactTyped from 'react-typed';
+import Typed from 'react-typed';
 
 export const NotFoundPage: React.FC = () => {
   return (
     <div className="pageEmpty">
-      <ReactTyped
+      <Typed
         strings={['Page is not found']}
         typeSpeed={75}
         className="title"

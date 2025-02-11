@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactTyped from 'react-typed';
+import Typed from 'react-typed';
 import { Loader } from '../components/Loader/Loader';
 import { CartItem } from '../components/CartItem/CartItem';
 import { BackButton } from '../components/BackButton/BackButton';
@@ -72,7 +72,7 @@ export const CartPage: React.FC<Props> = ({ isLoading }) => {
             )
             : (
               <div className="pageEmpty">
-                <ReactTyped
+                <Typed
                   strings={['Your cart is empty']}
                   typeSpeed={75}
                   className="title"

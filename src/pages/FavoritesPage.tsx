@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactTyped from 'react-typed';
+import Typed from 'react-typed';
 import { useSearchParams } from 'react-router-dom';
 import { Loader } from '../components/Loader/Loader';
 import { Breadcrumbs } from '../components/Breadcrumbs/Breadcrumbs';
@@ -57,7 +57,7 @@ export const FavoritesPage: React.FC<Props> = ({ isLoading }) => {
 
           {!searchedPhones.length && query === null && (
             <div className="pageEmpty">
-              <ReactTyped
+              <Typed
                 strings={['Your favorites is empty']}
                 typeSpeed={75}
                 className="title"
